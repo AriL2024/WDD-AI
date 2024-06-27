@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to ASU</title>
+  <style>
+    main {
+      width: 100%;
+      background-color: rgb(182, 6, 6);
+      padding: 0;
+      margin: 0;
+    }
+    
+    div {
+      background-color: rgb(68, 63, 63);
+    }
+    
+    #div1 {
+      display: flex;
+      background-color: rgb(68, 63, 63);
+    }
+    
+    #div1 .div1_left-column {
+      width: 60%;
+    }
+    
+    #div1 .div1_left-column img {
+      width: 100%;
+    }
+    
+    #div1 .div1_right-column {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #div1 .div1_right-column .div1_headline {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    
+    #div1 .div1_right-column .div1_paragraph {
+      font-size: 16px;
+    }
+    
+    #div2 {
+      display: flex; 
+      background-color: rgb(68, 63, 63);
+    }
+    
+    #div2 .div2_name-card {
+      width: 25%;
+      text-align: center;
+      display: inline-block;
+    }
+    
+    #div2 .div2_name-card img {
+      width: 100%;
+      height: 600px; /* Adjust the height as needed */
+      object-fit: cover;
+    }
+    
+    #div2 .div2_name-card .div2_name {
+      font-weight: bold;
+    }
+    
+    #div2 .div2_name-card .div2_info {
+      margin-top: 5px;
+    }
+    
+    #div3 {
+      display: flex;
+      background-color: rgb(182, 6, 6);
+    }
+    
+    #div3 .div3_left-column {
+      width: 25%;
+    }
+    
+    #div3 .div3_left-column h2 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    
+    #div3 .div3_left-column ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    #div3 .div3_left-column li {
+      margin-bottom: 5px;
+      cursor: pointer;
+      color: red; /* Set the color to red */
+    }
+    
+    #div3 .div3_right-column {
+      width: 75%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #div4 {
+      position: relative;
+      width: 100%;
+    }
+    
+    #div4 img {
+      width: 100%;
+      height: 75%;
+    }
+    
+    #div4 .div4_paragraph {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    
+    .div1_link {
+      color: red; /* Set the color to red */
+    }
+  </style>
+</head>
+<body>
+  <div id="banner">
+    <h1>Welcome to ASU</h1>
+    <p>Thank you for visiting our website. We are excited to have you here!</p>
+  </div>  
+  
+  <main>
+    <div id="div1">
+      <div class="div1_left-column">
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/158772ed-61ef-45a4-98a4-7be4768d6615/d2o8z5e-d116dd27-8cd5-4c64-92ce-3a30b55149ed.png/v1/fill/w_1280,h_802,q_80,strp/deadpool_logo_by_masterspeed_d2o8z5e-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODAyIiwicGF0aCI6IlwvZlwvMTU4NzcyZWQtNjFlZi00NWE0LTk4YTQtN2JlNDc2OGQ2NjE1XC9kMm84ejVlLWQxMTZkZDI3LThjZDUtNGM2NC05MmNlLTNhMzBiNTUxNDllZC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.7DDv01CAcTEpZSBM_0Jl0-z7bUDCaX7j31tGYSAwVfc" alt="Image 1">
+      </div>
+      <div class="div1_right-column">
+        <h2 class="div1_headline">AI is working</h2>
+        <p class="div1_paragraph">Summer 2024, WDD Using AI at Albany State University</p>
+        <a href="https://www.asurams.edu" class="div1_link">Visit ASU</a>
+      </div>
+    </div>
+    <div id="div2">
+      <div class="div2_name-card" onclick="window.open('screwDriver.html')">
+        <img src="https://th.bing.com/th/id/R.6d5dfb89346427b7c0f9727080e4f179?rik=tZfClReZ6WbnMg&riu=http%3a%2f%2fimg.chelmerfineart.com%2foriginal%2fthe-amazing-spider-man-001-21205.jpg&ehk=57cawBO7bsNAnrel0XS5%2fSgcjou2C1R86%2fuLeKaLNxg%3d&risl=&pid=ImgRaw&r=0" alt="Image 2">
+        <div class="div2_name">Spider-Man</div>
+        <div class="div2_info">Position: Developer</div>
+        <div class="div2_info">Email: john.doe@example.com</div>
+        <div class="div2_info">Phone: 123-456-7890</div>
+      </div>
+      <div class="div2_name-card">
+        <img src="https://i.pinimg.com/originals/c0/b6/85/c0b685900201fe602cb1c0433e30166f.jpg" alt="Image 3">
+        <div class="div2_name">colossus</div>
+        <div class="div2_info">Position: Designer</div>
+        <div class="div2_info">Email: jane.smith@example.com</div>
+        <div class="div2_info">Phone: 987-654-3210</div>
+      </div>
+      <div class="div2_name-card">
+        <img src="https://th.bing.com/th/id/R.9a697d771fdf1aa11df3ddd63ffdfbca?rik=00y9g8MYrweiTw&riu=http%3a%2f%2fimg2.wikia.nocookie.net%2f__cb20120420051006%2fmarveldatabase%2fimages%2fd%2fda%2fWolverine_Vol_2_305_Variant_McNiven.jpg&ehk=FqeDy%2fqd7JxDZNeHo
