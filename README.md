@@ -1,2 +1,3 @@
 # WDD-AI
-Summer camp
+summer camp
+That's all for today!
